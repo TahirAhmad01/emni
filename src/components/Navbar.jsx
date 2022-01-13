@@ -6,8 +6,8 @@ function Navbar() {
         <div>
             <ul>
                 <li><Link to="/">home</Link></li>
-                <li><Link to="/profile">home</Link></li>
-                <li><Link to="/dasboard">home</Link></li>
+                <li><Link to="/profile">profile</Link></li>
+                <li><Link to="/dasboard">dashboard</Link></li>
                 <li><Link to="/">home</Link></li>
             </ul>
         </div>
