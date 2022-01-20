@@ -31,6 +31,8 @@ export default function Home(){
     setIsOpen(false);
   }
 
+  
+
   return (
     <div>
       <button onClick={openModal}>Open Modal</button>
