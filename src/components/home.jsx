@@ -51,6 +51,7 @@ export default function Home(){
           <button>tab navigation</button>
           <button>stays</button>
           <button>inside</button>
+          <button>inside</button>
           <button>the modal</button>
         </form>
       </Modal>
