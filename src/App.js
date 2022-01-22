@@ -3,6 +3,7 @@ import Profile from "./components/profile";
 import Home from "./components/home";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import './scss/global.scss'
 
 function App() {
   return (
