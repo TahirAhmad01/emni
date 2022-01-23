@@ -1,20 +1,19 @@
-import '../css/style.css';
-import React from 'react';
-import Modal from 'react-modal';
+import React from "react";
+import Modal from "react-modal";
+import "../css/style.css";
 
 const customStyles = {
   content: {
-    top: '50%',
-    left: '50%',
-    right: 'auto',
-    bottom: 'auto',
-    marginRight: '-50%',
-    transform: 'translate(-50%, -50%)',
+    top: "50%",
+    left: "50%",
+    right: "auto",
+    bottom: "auto",
+    marginRight: "-50%",
+    transform: "translate(-50%, -50%)",
   },
 };
 
-
-export default function Home(){
+export default function Home() {
   let subtitle;
   const [modalIsOpen, setIsOpen] = React.useState(false);
 
@@ -24,7 +23,7 @@ export default function Home(){
 
   function afterOpenModal() {
     // references are now sync'd and can be accessed.
-    subtitle.style.color = '#f00';
+    subtitle.style.color = "#f00";
   }
 
   function closeModal() {
@@ -33,6 +32,7 @@ export default function Home(){
 
   return (
     <div>
+      <h1>This is Home page</h1>
       <button onClick={openModal}>Open Modal</button>
       <Modal
         isOpen={modalIsOpen}
@@ -53,6 +53,9 @@ export default function Home(){
           <button>the modal</button>
         </form>
       </Modal>
+
+      <i className="fad fa-abacus"></i>
+      <i className="fab fa-accusoft"></i>
     </div>
   );
 }
