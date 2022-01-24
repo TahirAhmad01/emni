@@ -72,7 +72,7 @@ const item = [
   {
     id: 1,
     title: "Project name",
-    category: "android",
+    category: "tab",
   },
 ];
 
