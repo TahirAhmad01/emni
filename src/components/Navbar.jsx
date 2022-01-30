@@ -24,6 +24,14 @@ function Navbar() {
           </li>
         </ul>
       </div>
+
+      <div className="mobile-menu">
+        <div className="three-menu">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
     </div>
   );
 }

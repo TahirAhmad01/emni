@@ -19,6 +19,7 @@ export default function Home() {
 
   const filDubArr = (keyFunc, arr) => {
     var newArr = new Set();
+    console.log(newArr);
     return arr.filter((x) => {
       var key = keyFunc(x),
         isNew = !newArr.has(key);
