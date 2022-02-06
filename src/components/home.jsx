@@ -3,6 +3,7 @@ import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../css/style.css";
 import item from "../json/items";
 
+
 export default function Home() {
   const [items, setfilter] = useState(item);
 
@@ -16,7 +17,7 @@ export default function Home() {
     });
     setfilter(updateFilter);
   };
-
+  
   const filDubArr = (keyFunc, arr) => {
     var newArr = new Set();
     console.log(newArr);
@@ -47,7 +48,7 @@ export default function Home() {
           <button
             className="btn btn-primary mx-2 btn-sm px-3"
             onClick={handleClick.bind(this, `${btn.category}`)}
-            key={idx}
+            key = {idx}
           >
             {btn.category}
           </button>
